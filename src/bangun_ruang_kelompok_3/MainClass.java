@@ -57,6 +57,19 @@ public class MainClass {
         System.out.println("Hasil Luas Permukaan \t: " + kbs.getLuasPermukaan());
         System.out.println("Hasil Volume \t\t: " + kbs.getVolume());
         System.out.println("=================================================================================");
+        
+        Bola bl = new Bola();
+        bl.setjari_jari(8.7);
+        System.out.println("\n ________________________");
+        System.out.println("| Anisa urdatun n : Bola |");
+        System.out.println("|________________________|");
+        System.out.println("\nJari-jari \t\t: " + bl.getjari_jari());
+        System.out.println("PHI \t\t\t: 3.14");
+        System.out.println("Rumus Luas Permukaan \t: 4 * PHI * Jari-jari^2");
+        System.out.println("Rumus Volume \t\t: 4/3 * PHI * Jari-jari^3");
+        System.out.println("Hasil Luas Permukaan \t: " + bl.getluaspermukaan());
+        System.out.println("Hasil Volume \t\t: " + bl.getvolume());
+        System.out.println("=================================================================================");
     }
     
 }
