@@ -12,13 +12,16 @@ public class MainClass {
     
     public static void main(String[] args) {
         
+        System.out.println("\t\t\tLUAS PERMUKAAN & VOLUME BANGUN RUANG");
+        
+        System.out.println("\n=================================================================================");
         PrismaSegitiga ps = new PrismaSegitiga();
         ps.setAlas(3.8);
         ps.setTinggi_alas(3.7);
         ps.setKeliling_alas(4.1);
         ps.setTinggi_prisma(2.3);
         System.out.println("\n ____________________________________________");
-        System.out.println("| Muhammad Alfian nur aziz : Prisma Segitiga |");
+        System.out.println("| Muhammad Aziz Ridwan : Prisma Segitiga |");
         System.out.println("|____________________________________________|");
         System.out.println("\nAlas \t\t\t: " + ps.getAlas());
         System.out.println("Tinggi alas \t\t: "+ps.getTinggi_alas());
@@ -101,6 +104,24 @@ public class MainClass {
         System.out.println("Rumus Volume \t\t: PHI * Jari-jari^2 * Tinggi ");
         System.out.println("Hasil Luas Permukaan \t: " + tb.getLuasPermukaan());
         System.out.println("Hasil Volume \t\t: " + tb.getVolume());
+        System.out.println("=================================================================================");
+        
+        LimasSegitiga lms  = new LimasSegitiga();
+        lms.setAlas(9.8);
+        lms.setTinggiAlas(7.1);
+        lms.setLuasSisiTegak(2.6);
+        lms.setTinggiLimasSegitiga(5.1);
+        System.out.println("\n __________________________________________");
+        System.out.println("| Muhammad Alfian Nur Aziz : Limas Segitiga |");
+        System.out.println("|___________________________________________|");
+        System.out.println("\nAlas \t\t\t: " + lms.getAlas());
+        System.out.println("Tinggi alas \t\t: "+lms.getTinggiAlas());
+        System.out.println("Luas sisi tegak \t: "+lms.getLuasSisiTegak());
+        System.out.println("Tingi limas segitiga \t: "+lms.getTinggiLimasSegitiga());
+        System.out.println("Rumus Luas Permukaan \t: (1/2 * Alas * Tinggi alas) + (3 * Luas sisi tegak)");
+        System.out.println("Rumus Volume \t\t: 1/3 *(1/2 * Alas * Tinggi alas) * Tinggi limas segitiga");
+        System.out.println("Hasil Luas Permukaan \t: " + lms.getLuasPermukaan());
+        System.out.println("Hasil Volume \t\t: " + lms.getVolume());
         System.out.println("=================================================================================");
     }
     
