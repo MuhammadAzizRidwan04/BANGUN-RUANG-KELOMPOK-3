@@ -70,6 +70,23 @@ public class MainClass {
         System.out.println("Hasil Luas Permukaan \t: " + bl.getluaspermukaan());
         System.out.println("Hasil Volume \t\t: " + bl.getvolume());
         System.out.println("=================================================================================");
+        
+        Kerucut krc = new Kerucut();
+        krc.setGaris_pelukis(3.5);
+        krc.setJari_jari(3.2);
+        krc.setTinggi(4.9);
+        System.out.println("\n ___________________________");
+        System.out.println("| Andoko saifudin : Kerucut |");
+        System.out.println("|___________________________|");
+        System.out.println("\nGaris pelukis \t\t: " + krc.getGaris_pelukis());
+        System.out.println("Jari-jari \t\t: "+krc.getJari_jari());
+        System.out.println("Tinggi \t\t\t: "+krc.getTinggi());
+        System.out.println("PHI \t\t\t: 3.14");
+        System.out.println("Rumus Luas Permukaan \t: PHI * Jari-jari * (Garis pelukis + Jari-jari)  ");
+        System.out.println("Rumus Volume \t\t: 1/3 * PHI * Jari-jari^2 * Tinggi ");
+        System.out.println("Hasil Luas Permukaan \t: " + krc.getLuasPermukaan());
+        System.out.println("Hasil Volume \t\t: " + krc.getvolume());
+        System.out.println("=================================================================================");
     }
     
 }
