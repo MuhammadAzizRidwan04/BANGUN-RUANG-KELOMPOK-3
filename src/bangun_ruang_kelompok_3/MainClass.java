@@ -87,6 +87,21 @@ public class MainClass {
         System.out.println("Hasil Luas Permukaan \t: " + krc.getLuasPermukaan());
         System.out.println("Hasil Volume \t\t: " + krc.getvolume());
         System.out.println("=================================================================================");
+        
+        Tabung tb = new Tabung();
+        tb.setJari_jari(4.5);
+        tb.setTinggi(9.8);
+        System.out.println("\n ___________________________________");
+        System.out.println("| Muhammad Fahmi Zulfikar  : Tabung |");
+        System.out.println("|___________________________________|");
+        System.out.println("\nJari-jari \t\t: " + tb.getJari_jari());
+        System.out.println("Tingi \t\t\t: "+tb.getTinggi());
+        System.out.println("PHI \t\t\t: 3.14");
+        System.out.println("Rumus Luas Permukaan \t: 2 * PHI * Jari-jari *(Jari-jari + Tinggi)");
+        System.out.println("Rumus Volume \t\t: PHI * Jari-jari^2 * Tinggi ");
+        System.out.println("Hasil Luas Permukaan \t: " + tb.getLuasPermukaan());
+        System.out.println("Hasil Volume \t\t: " + tb.getVolume());
+        System.out.println("=================================================================================");
     }
     
 }
