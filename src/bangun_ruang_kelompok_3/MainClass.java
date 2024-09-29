@@ -21,7 +21,7 @@ public class MainClass {
         ps.setKeliling_alas(4.1);
         ps.setTinggi_prisma(2.3);
         System.out.println("\n ____________________________________________");
-        System.out.println("| Muhammad Aziz Ridwan : Prisma Segitiga |");
+        System.out.println("| Muhammad Aziz Ridwan : Prisma Segitiga     |");
         System.out.println("|____________________________________________|");
         System.out.println("\nAlas \t\t\t: " + ps.getAlas());
         System.out.println("Tinggi alas \t\t: "+ps.getTinggi_alas());
