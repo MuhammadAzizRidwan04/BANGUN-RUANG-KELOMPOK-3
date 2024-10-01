@@ -10,7 +10,7 @@ package bangun_ruang_kelompok_3;
  */
 public class PrismaSegitiga {
     
-    double alas, tinggi_alas, keliling_alas, tinggi_prisma;
+    double alas, tinggi_alas, keliling_alas, tinggi_prisma,volume,luas;
 
     public void setAlas(double alas) {
         this.alas = alas;
@@ -44,12 +44,18 @@ public class PrismaSegitiga {
         return tinggi_prisma;
     }
 
-    public double getLuaspermukaan() {
-        return (2 * 1 / 2 * alas * tinggi_alas) + (keliling_alas * tinggi_alas);
+    public void setLuasPermukaan() {
+        this.luas = (2 * 1 / 2 * alas * tinggi_alas) + (keliling_alas * tinggi_alas);
+    }
+    public double getLuasPermukaan(){
+        return luas;
+    }
+    public void setvolume(){
+        this.volume = 0.5 * alas * tinggi_alas * tinggi_prisma;
     }
 
     public double getvolume() {
-        return (1.0 / 2.0 * alas * tinggi_alas) * tinggi_prisma;
+        return volume;
     }
     
 }
