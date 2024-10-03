@@ -141,6 +141,7 @@ public class Frame_PrismaSegitiga extends javax.swing.JFrame {
 
     private void jKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jKembaliActionPerformed
         // TODO add your handling code here:
+        new MainFrame().setVisible(true);
         dispose();
     }//GEN-LAST:event_jKembaliActionPerformed
 
