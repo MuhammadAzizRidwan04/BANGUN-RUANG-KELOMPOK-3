@@ -18,12 +18,14 @@ public class Frame_PrismaSegitiga extends javax.swing.JFrame {
         reset();
     }
     void reset(){
-        tAlas.setText(null);
+        tAlas.setText("");
         tTinggiAlas.setText("");
         tKelilingAlas.setText("");
         tTinggiPrisma.setText("");
         vLuas.setText("");
         vVolume.setText("");
+        tRluas.setText("");
+        tRvolume.setText("");
     }
 
     /**
@@ -44,6 +46,8 @@ public class Frame_PrismaSegitiga extends javax.swing.JFrame {
         jKembali = new javax.swing.JButton();
         vLuas = new javax.swing.JLabel();
         vVolume = new javax.swing.JLabel();
+        tRluas = new javax.swing.JLabel();
+        tRvolume = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -99,12 +103,24 @@ public class Frame_PrismaSegitiga extends javax.swing.JFrame {
         vLuas.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         vLuas.setForeground(new java.awt.Color(102, 102, 255));
         vLuas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        vLuas.setText("Luas");
         getContentPane().add(vLuas, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 220, -1, -1));
 
         vVolume.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         vVolume.setForeground(new java.awt.Color(102, 102, 255));
         vVolume.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        vVolume.setText("Volume");
         getContentPane().add(vVolume, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 300, -1, -1));
+
+        tRluas.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        tRluas.setForeground(new java.awt.Color(255, 255, 51));
+        tRluas.setText("Rumus luas");
+        getContentPane().add(tRluas, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 450, -1, -1));
+
+        tRvolume.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        tRvolume.setForeground(new java.awt.Color(255, 255, 51));
+        tRvolume.setText("Rumus volume");
+        getContentPane().add(tRvolume, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 490, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/foto/LUAS & VOLUME PRISMA SEGITIGA.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -132,6 +148,8 @@ public class Frame_PrismaSegitiga extends javax.swing.JFrame {
         String luas = String.valueOf(ps.getLuasPermukaan());
         vVolume.setText(volume);
         vLuas.setText(luas);
+        tRluas.setText("Luas : (2 * 1 / 2 * alas * tinggi_alas) + (keliling_alas * tinggi_alas)");
+        tRvolume.setText("Volume : 0.5 * alas * tinggi_alas * tinggi_prisma;");
     }//GEN-LAST:event_jHitungActionPerformed
 
     private void jResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jResetActionPerformed
@@ -187,6 +205,8 @@ public class Frame_PrismaSegitiga extends javax.swing.JFrame {
     private javax.swing.JButton jReset;
     private javax.swing.JTextField tAlas;
     private javax.swing.JTextField tKelilingAlas;
+    private javax.swing.JLabel tRluas;
+    private javax.swing.JLabel tRvolume;
     private javax.swing.JTextField tTinggiAlas;
     private javax.swing.JTextField tTinggiPrisma;
     private javax.swing.JLabel vLuas;
