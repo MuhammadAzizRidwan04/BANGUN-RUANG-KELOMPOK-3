@@ -150,8 +150,8 @@ public class Frame_Balok extends javax.swing.JFrame {
         String luas = String.valueOf(blk.getLuasPermukaan());
         vVolume.setText(volume);
         vLuas.setText(luas);
-        tRluas.setText("2 * (panjang * lebar + panjang * tinggi + lebar * tinggi);");
-        tRvolume.setText("panjang * lebar * tinggi;");
+        tRluas.setText("Luas : 2 * (panjang * lebar + panjang * tinggi + lebar * tinggi)");
+        tRvolume.setText("Volume : panjang * lebar * tinggi");
     }//GEN-LAST:event_jHitungActionPerformed
 
     private void jResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jResetActionPerformed

@@ -52,17 +52,15 @@ public class Frame_Kubus extends javax.swing.JFrame {
         tSisi.setBorder(null);
         getContentPane().add(tSisi, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 70, 20));
 
-        vLuas.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        vLuas.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         vLuas.setForeground(new java.awt.Color(102, 102, 255));
-        vLuas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         vLuas.setText("jLabel2");
-        getContentPane().add(vLuas, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 220, -1, -1));
+        getContentPane().add(vLuas, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 230, -1, -1));
 
-        vVolume.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        vVolume.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         vVolume.setForeground(new java.awt.Color(102, 102, 255));
-        vVolume.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         vVolume.setText("jLabel3");
-        getContentPane().add(vVolume, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 300, -1, -1));
+        getContentPane().add(vVolume, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 300, -1, -1));
 
         jHitung.setBackground(new java.awt.Color(255, 255, 51));
         jHitung.setText("HITUNG");
@@ -134,8 +132,8 @@ public class Frame_Kubus extends javax.swing.JFrame {
         String luas = String.valueOf(kb.getLuasPermukaan());
         vVolume.setText(volume);
         vLuas.setText(luas);
-        tRluas.setText("6 * Sisi^2");
-        tRvolume.setText("sisi^3");
+        tRluas.setText("Luas : 6 * Sisi^2");
+        tRvolume.setText("Volume : sisi^3");
     }//GEN-LAST:event_jHitungActionPerformed
 
     /**

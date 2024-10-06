@@ -161,8 +161,8 @@ public class Frame_Limas_segitiga extends javax.swing.JFrame {
         String luas = String.valueOf(lms.getLuasPermukaan());
         vVolume.setText(volume);
         vLuas.setText(luas);
-        tRluas.setText("(1/2 * Alas * Tinggi alas) + (3 * Luas sisi tegak");
-        tRvolume.setText("1/3 *(1/2 * Alas * Tinggi alas) * Tinggi limas segitiga");
+        tRluas.setText("Luas : (1/2 * Alas * Tinggi alas) + (3 * Luas sisi tegak");
+        tRvolume.setText("Volume : 1/3 *(1/2 * Alas * Tinggi alas) * Tinggi limas segitiga");
     }//GEN-LAST:event_jHitungActionPerformed
 
     /**

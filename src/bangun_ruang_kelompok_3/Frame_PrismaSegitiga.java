@@ -149,7 +149,7 @@ public class Frame_PrismaSegitiga extends javax.swing.JFrame {
         vVolume.setText(volume);
         vLuas.setText(luas);
         tRluas.setText("Luas : (2 * 1 / 2 * alas * tinggi_alas) + (keliling_alas * tinggi_alas)");
-        tRvolume.setText("Volume : 0.5 * alas * tinggi_alas * tinggi_prisma;");
+        tRvolume.setText("Volume : 0.5 * alas * tinggi_alas * tinggi_prisma");
     }//GEN-LAST:event_jHitungActionPerformed
 
     private void jResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jResetActionPerformed

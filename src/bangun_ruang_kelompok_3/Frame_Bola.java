@@ -52,16 +52,15 @@ public class Frame_Bola extends javax.swing.JFrame {
         tJari_jari.setBorder(null);
         getContentPane().add(tJari_jari, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 170, 80, 20));
 
-        vLuas.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        vLuas.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         vLuas.setForeground(new java.awt.Color(102, 102, 255));
-        vLuas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         vLuas.setText("jLabel2");
-        getContentPane().add(vLuas, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 220, -1, -1));
+        getContentPane().add(vLuas, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 230, -1, -1));
 
-        vVolume.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        vVolume.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         vVolume.setForeground(new java.awt.Color(102, 102, 255));
         vVolume.setText("jLabel3");
-        getContentPane().add(vVolume, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 300, -1, -1));
+        getContentPane().add(vVolume, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 300, -1, -1));
 
         jHitung.setBackground(new java.awt.Color(255, 255, 51));
         jHitung.setText("HITUNG");
@@ -133,8 +132,8 @@ public class Frame_Bola extends javax.swing.JFrame {
         String luas = String.valueOf(bl.getLuasPermukaan());
         vVolume.setText(volume);
         vLuas.setText(luas);
-        tRluas.setText("4 * PHI * Jari-jari^2");
-        tRvolume.setText("4/3 * PHI * Jari-jari^3");
+        tRluas.setText("Luas : 4 * PHI * Jari-jari^2");
+        tRvolume.setText("Volume : 4/3 * PHI * Jari-jari^3");
 
     }//GEN-LAST:event_jHitungActionPerformed
 
