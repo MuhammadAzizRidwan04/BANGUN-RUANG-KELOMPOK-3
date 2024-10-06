@@ -67,6 +67,8 @@ public class MainClass {
         
         Bola bl = new Bola();
         bl.setjari_jari(8.7);
+        bl.setluaspermukaan();
+        bl.setvolume();
         System.out.println("\n ________________________");
         System.out.println("| Anisa urdatun n : Bola |");
         System.out.println("|________________________|");
@@ -74,8 +76,8 @@ public class MainClass {
         System.out.println("PHI \t\t\t: 3.14");
         System.out.println("Rumus Luas Permukaan \t: 4 * PHI * Jari-jari^2");
         System.out.println("Rumus Volume \t\t: 4/3 * PHI * Jari-jari^3");
-        System.out.println("Hasil Luas Permukaan \t: " + bl.getluaspermukaan());
-        System.out.println("Hasil Volume \t\t: " + bl.getvolume());
+        System.out.println("Hasil Luas Permukaan \t: " + bl.getLuasPermukaan());
+        System.out.println("Hasil Volume \t\t: " + bl.getVolume());
         System.out.println("=================================================================================");
         
         Kerucut krc = new Kerucut();
