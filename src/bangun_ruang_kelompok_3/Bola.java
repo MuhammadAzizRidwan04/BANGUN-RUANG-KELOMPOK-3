@@ -10,7 +10,7 @@ package bangun_ruang_kelompok_3;
  */
 public class Bola {
 
-    double jari_jari;
+    double jari_jari, luas, volume;
 
     public void setjari_jari(double jari_jari) {
         this.jari_jari = jari_jari;
@@ -20,11 +20,20 @@ public class Bola {
         return jari_jari;
     }
 
-    public double getluaspermukaan() {
-        return 4 * Math.PI * Math.pow(jari_jari, 2);
+    public void setluaspermukaan() {
+        this.luas = 4 * Math.PI * Math.pow(jari_jari, 2);
     }
 
-    public double getvolume() {
-        return 4.0 / 3.0 * Math.PI * Math.pow(jari_jari, 3);
+    public double getLuasPermukaan() {
+        return luas;
+    }
+
+    public void setvolume() {
+        this.volume = 4.0 / 3.0 * Math.PI * Math.pow(jari_jari, 3);
+    }
+
+    public double getVolume() {
+        return volume;
     }
 }
+
