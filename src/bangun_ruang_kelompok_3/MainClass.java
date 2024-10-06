@@ -39,6 +39,8 @@ public class MainClass {
         blk.setPanjang(2.8);
         blk.setLebar(4.7);
         blk.setTinggi(5.2);
+        blk.setLuasPermukaan();
+        blk.setVolume();
         System.out.println("\n ______________________________");
         System.out.println("| Bathsyaba mukarromah : Balok |");
         System.out.println("|______________________________|");
