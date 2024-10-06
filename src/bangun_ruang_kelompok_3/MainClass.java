@@ -104,6 +104,8 @@ public class MainClass {
         Tabung tb = new Tabung();
         tb.setJari_jari(4.5);
         tb.setTinggi(9.8);
+        tb.setLuasPermukaan();
+        tb.setVolume();
         System.out.println("\n ___________________________________");
         System.out.println("| Muhammad Fahmi Zulfikar  : Tabung |");
         System.out.println("|___________________________________|");
