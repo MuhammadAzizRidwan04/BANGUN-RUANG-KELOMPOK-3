@@ -86,6 +86,8 @@ public class MainClass {
         krc.setGaris_pelukis(3.5);
         krc.setJari_jari(3.2);
         krc.setTinggi(4.9);
+        krc.setLuasPermukaan();
+        krc.setvolume();
         System.out.println("\n ___________________________");
         System.out.println("| Andoko saifudin : Kerucut |");
         System.out.println("|___________________________|");
@@ -96,7 +98,7 @@ public class MainClass {
         System.out.println("Rumus Luas Permukaan \t: PHI * Jari-jari * (Garis pelukis + Jari-jari)  ");
         System.out.println("Rumus Volume \t\t: 1/3 * PHI * Jari-jari^2 * Tinggi ");
         System.out.println("Hasil Luas Permukaan \t: " + krc.getLuasPermukaan());
-        System.out.println("Hasil Volume \t\t: " + krc.getvolume());
+        System.out.println("Hasil Volume \t\t: " + krc.getVolume());
         System.out.println("=================================================================================");
         
         Tabung tb = new Tabung();
