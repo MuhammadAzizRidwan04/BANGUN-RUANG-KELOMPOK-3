@@ -10,7 +10,7 @@ package bangun_ruang_kelompok_3;
  */
 public class Kerucut {
 
-    double garis_pelukis, jari_jari, tinggi;
+    double garis_pelukis, jari_jari, tinggi, luas, volume;
 
     public void setGaris_pelukis(double garis_pelukis) {
         this.garis_pelukis = garis_pelukis;
@@ -36,12 +36,21 @@ public class Kerucut {
         return tinggi;
     }
 
-    public double getLuasPermukaan() {
-        return Math.PI * jari_jari * (garis_pelukis + jari_jari);
+    public void setLuasPermukaan() {
+        this.luas = Math.PI * jari_jari * (garis_pelukis + jari_jari);
     }
 
-    public double getvolume() {
-        return 1.0 / 3.0 * Math.PI * Math.pow(jari_jari, 2) * tinggi;
+    public double getLuasPermukaan() {
+        return luas;
+    }
+
+    public void setvolume() {
+        this.volume = 1.0 / 3.0 * Math.PI * Math.pow(jari_jari, 2) * tinggi;
+    }
+
+    public double getVolume() {
+        return volume;
     }
 
 }
+
