@@ -55,6 +55,8 @@ public class MainClass {
         
         Kubus kbs = new Kubus();
         kbs.setSisi(3.7);
+        kbs.setLuasPermukaan();
+        kbs.setVolume();
         System.out.println("\n _____________________________________");
         System.out.println("| M yusuf bahtiar nur saputra : Kubus |");
         System.out.println("|_____________________________________|");
