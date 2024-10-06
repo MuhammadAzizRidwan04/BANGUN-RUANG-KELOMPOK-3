@@ -123,6 +123,8 @@ public class MainClass {
         lms.setTinggiAlas(7.1);
         lms.setLuasSisiTegak(2.6);
         lms.setTinggiLimasSegitiga(5.1);
+        lms.setLuasPermukaan();
+        lms.setVolume();
         System.out.println("\n __________________________________________");
         System.out.println("| Muhammad Alfian Nur Aziz : Limas Segitiga |");
         System.out.println("|___________________________________________|");

@@ -51,9 +51,13 @@ public class Frame_Balok extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        tPanjang.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        tPanjang.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         tPanjang.setBorder(null);
         getContentPane().add(tPanjang, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 170, 80, 20));
 
+        tLebar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        tLebar.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         tLebar.setBorder(null);
         tLebar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -62,6 +66,8 @@ public class Frame_Balok extends javax.swing.JFrame {
         });
         getContentPane().add(tLebar, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 240, 80, 20));
 
+        tTinggi.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        tTinggi.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         tTinggi.setBorder(null);
         getContentPane().add(tTinggi, new org.netbeans.lib.awtextra.AbsoluteConstraints(164, 316, 80, 20));
 
