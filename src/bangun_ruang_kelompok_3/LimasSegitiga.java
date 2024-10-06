@@ -8,9 +8,10 @@ package bangun_ruang_kelompok_3;
  *
  * @author Santri IT
  */
+
 public class LimasSegitiga {
 
-    double alas, tingi_alas, luas_sisi_tegak, tingi_limas_segitiga;
+    double alas, tingi_alas, luas_sisi_tegak, tingi_limas_segitiga, luas, volume;
 
     public void setAlas(double alas) {
         this.alas = alas;
@@ -44,11 +45,17 @@ public class LimasSegitiga {
         return tingi_limas_segitiga;
     }
 
-    public double getLuasPermukaan() {
-        return (1.0 / 2.0 * alas * tingi_alas) + (3 * luas_sisi_tegak);
+    public void setLuasPermukaan() {
+        this.luas = (1.0 / 2.0 * alas * tingi_alas) + (3 * luas_sisi_tegak);
+    }
+    public double getLuasPermukaan(){
+        return luas;
     }
 
-    public double getVolume() {
-        return 1.0 / 3.0 * (1.0 / 2.0 * alas * tingi_alas) * tingi_limas_segitiga;
+    public void setVolume() {
+        this.volume = 1.0 / 3.0 * (1.0 / 2.0 * alas * tingi_alas) * tingi_limas_segitiga;
+    }
+    public double getVolume(){
+        return volume;
     }
 }
