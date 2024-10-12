@@ -61,7 +61,7 @@ public class MainClass {
         System.out.println("| M yusuf bahtiar nur saputra : Kubus |");
         System.out.println("|_____________________________________|");
         System.out.println("\nSisi \t\t\t: " + kbs.getSisi());
-        System.out.println("Rumus Luas Permukaan \t: 6 * Sisi^2 ");
+        System.out.println("Rumus Luas Permukaan \t: 6 * Sisi ^ 2  ");
         System.out.println("Rumus Volume \t\t: sisi^3");
         System.out.println("Hasil Luas Permukaan \t: " + kbs.getLuas());
         System.out.println("Hasil Volume \t\t: " + kbs.getVolume());
