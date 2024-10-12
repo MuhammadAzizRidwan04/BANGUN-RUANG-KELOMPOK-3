@@ -148,7 +148,7 @@ public class Frame_Kerucut extends javax.swing.JFrame {
         krc.setvolume();
 
         String volume = String.valueOf(krc.getVolume());
-        String luas = String.valueOf(krc.getLuasPermukaan());
+        String luas = String.valueOf(krc.getLuas());
         vVolume.setText(volume);
         vLuas.setText(luas);
         tRluas.setText("Luas : PHI * Jari-jari * (Garis pelukis + Jari-jari)");
