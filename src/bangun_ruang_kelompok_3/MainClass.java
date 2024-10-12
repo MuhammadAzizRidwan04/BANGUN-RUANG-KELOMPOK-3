@@ -114,7 +114,7 @@ public class MainClass {
         System.out.println("PHI \t\t\t: 3.14");
         System.out.println("Rumus Luas Permukaan \t: 2 * PHI * Jari-jari *(Jari-jari + Tinggi)");
         System.out.println("Rumus Volume \t\t: PHI * Jari-jari^2 * Tinggi ");
-        System.out.println("Hasil Luas Permukaan \t: " + tb.getLuasPermukaan());
+        System.out.println("Hasil Luas Permukaan \t: " + tb.getLuas());
         System.out.println("Hasil Volume \t\t: " + tb.getVolume());
         System.out.println("=================================================================================");
         
