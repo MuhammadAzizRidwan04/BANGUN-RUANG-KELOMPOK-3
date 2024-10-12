@@ -17,7 +17,7 @@ public class MainClass {
         System.out.println("\n=================================================================================");
         PrismaSegitiga ps = new PrismaSegitiga();
         ps.setAlas(3.8);
-        ps.setTinggi_alas(3.7);
+        ps.setTinggi(3.7); //tinggi= tinggi alas
         ps.setKeliling_alas(4.1);
         ps.setTinggi_prisma(2.3);
         ps.setLuasPermukaan();
@@ -26,13 +26,13 @@ public class MainClass {
         System.out.println("| Muhammad Aziz Ridwan : Prisma Segitiga     |");
         System.out.println("|____________________________________________|");
         System.out.println("\nAlas \t\t\t: " + ps.getAlas());
-        System.out.println("Tinggi alas \t\t: "+ps.getTinggi_alas());
+        System.out.println("Tinggi alas \t\t: "+ps.getTinggi());
         System.out.println("Kelilinhg alas \t\t: "+ps.getKeliling_alas());
         System.out.println("Tingi prisma \t\t: "+ps.getTinggi_prisma());
         System.out.println("Rumus Luas Permukaan \t: (2 * 1/2 * Alas * Tingi alas) + (Keliling alas * Tingi alas)");
         System.out.println("Rumus Volume \t\t: (1/2 * Alas * Tinggi alas) * Tingi prisma");
-        System.out.println("Hasil Luas Permukaan \t: " + ps.getLuasPermukaan());
-        System.out.println("Hasil Volume \t\t: " + ps.getvolume());
+        System.out.println("Hasil Luas Permukaan \t: " + ps.getLuas());
+        System.out.println("Hasil Volume \t\t: " + ps.getVolume());
         System.out.println("=================================================================================");
         
         Balok blk = new Balok();

@@ -138,14 +138,14 @@ public class Frame_PrismaSegitiga extends javax.swing.JFrame {
         double tinggi_prisma = Double.parseDouble(tTinggiPrisma.getText());
 
         ps.setAlas(alas);
-        ps.setTinggi_alas(tinggi_alas);
+        ps.setTinggi(tinggi_alas);
         ps.setKeliling_alas(keliling_alas);
         ps.setTinggi_prisma(tinggi_prisma);
         ps.setLuasPermukaan();
         ps.setvolume();
 
-        String volume = String.valueOf(ps.getvolume());
-        String luas = String.valueOf(ps.getLuasPermukaan());
+        String volume = String.valueOf(ps.getVolume());
+        String luas = String.valueOf(ps.getLuas());
         vVolume.setText(volume);
         vLuas.setText(luas);
         tRluas.setText("Luas : (2 * 1 / 2 * alas * tinggi_alas) + (keliling_alas * tinggi_alas)");
