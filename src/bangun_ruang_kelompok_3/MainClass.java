@@ -49,7 +49,7 @@ public class MainClass {
         System.out.println("Tinggi \t\t\t: "+blk.getTinggi());
         System.out.println("Rumus Luas Permukaan \t: 2 * (Panjang * Lebar + Panjang * Tinggi + Lebar * Tingi)");
         System.out.println("Rumus Volume \t\t: Panjang * Lebar * Tinggi ");
-        System.out.println("Hasil Luas Permukaan \t: " + blk.getLuasPermukaan());
+        System.out.println("Hasil Luas Permukaan \t: " + blk.getLuas());
         System.out.println("Hasil Volume \t\t: " + blk.getVolume());
         System.out.println("=================================================================================");
         
