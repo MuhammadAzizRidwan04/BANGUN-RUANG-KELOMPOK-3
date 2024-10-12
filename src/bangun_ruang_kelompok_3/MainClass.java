@@ -120,7 +120,7 @@ public class MainClass {
         
         LimasSegitiga lms  = new LimasSegitiga();
         lms.setAlas(9.8);
-        lms.setTinggiAlas(7.1);
+        lms.setTinggi(7.1);
         lms.setLuasSisiTegak(2.6);
         lms.setTinggiLimasSegitiga(5.1);
         lms.setLuasPermukaan();
@@ -129,12 +129,12 @@ public class MainClass {
         System.out.println("| Muhammad Alfian Nur Aziz : Limas Segitiga |");
         System.out.println("|___________________________________________|");
         System.out.println("\nAlas \t\t\t: " + lms.getAlas());
-        System.out.println("Tinggi alas \t\t: "+lms.getTinggiAlas());
+        System.out.println("Tinggi alas \t\t: "+lms.getTinggi());
         System.out.println("Luas sisi tegak \t: "+lms.getLuasSisiTegak());
         System.out.println("Tingi limas segitiga \t: "+lms.getTinggiLimasSegitiga());
         System.out.println("Rumus Luas Permukaan \t: (1/2 * Alas * Tinggi alas) + (3 * Luas sisi tegak)");
         System.out.println("Rumus Volume \t\t: 1/3 *(1/2 * Alas * Tinggi alas) * Tinggi limas segitiga");
-        System.out.println("Hasil Luas Permukaan \t: " + lms.getLuasPermukaan());
+        System.out.println("Hasil Luas Permukaan \t: " + lms.getLuas());
         System.out.println("Hasil Volume \t\t: " + lms.getVolume());
         System.out.println("=================================================================================");
     }
