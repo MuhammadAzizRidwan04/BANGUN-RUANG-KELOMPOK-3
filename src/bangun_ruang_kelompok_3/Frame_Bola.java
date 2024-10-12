@@ -124,12 +124,12 @@ public class Frame_Bola extends javax.swing.JFrame {
         
         
 
-        bl.setjari_jari(jari_jari);
+        bl.setJari_jari(jari_jari);
         bl.setluaspermukaan();
         bl.setvolume();
 
         String volume = String.valueOf(bl.getVolume());
-        String luas = String.valueOf(bl.getLuasPermukaan());
+        String luas = String.valueOf(bl.getLuas());
         vVolume.setText(volume);
         vLuas.setText(luas);
         tRluas.setText("Luas : 4 * PHI * Jari-jari^2");
