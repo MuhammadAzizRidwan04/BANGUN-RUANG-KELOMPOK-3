@@ -129,7 +129,7 @@ public class Frame_Kubus extends javax.swing.JFrame {
         kb.setVolume();
 
         String volume = String.valueOf(kb.getVolume());
-        String luas = String.valueOf(kb.getLuasPermukaan());
+        String luas = String.valueOf(kb.getLuas());
         vVolume.setText(volume);
         vLuas.setText(luas);
         tRluas.setText("Luas : 6 * Sisi^2");

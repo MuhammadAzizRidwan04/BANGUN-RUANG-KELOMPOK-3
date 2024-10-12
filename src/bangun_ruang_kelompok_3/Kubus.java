@@ -8,7 +8,7 @@ package bangun_ruang_kelompok_3;
  *
  * @author ASUS
  */
-public class Kubus {
+public class Kubus extends Bangun_ruang {
 
     double sisi, luas, volume;
 
@@ -21,17 +21,11 @@ public class Kubus {
     }
 
     public void setLuasPermukaan() {
-        this.luas = 6 * sisi * sisi;
-    }
-    public double getLuasPermukaan(){
-        return luas;
+        super.luas = 6 * sisi * sisi;
     }
 
     public void setVolume() {
-        this.volume = sisi * sisi * sisi;
+        super.volume = sisi * sisi * sisi;
     }
-    public double getVolume(){
-        return volume;
-    }
-}
 
+}
