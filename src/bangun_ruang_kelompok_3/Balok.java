@@ -8,8 +8,9 @@ package bangun_ruang_kelompok_3;
  *
  * @author HP 14s
  */
-public class Balok {
-    double panjang, lebar, tinggi, luas , volume;
+public class Balok extends Bangun_ruang {
+
+    double panjang, lebar, luas, volume;
 
     public void setPanjang(double panjang) {
         this.panjang = panjang;
@@ -27,27 +28,12 @@ public class Balok {
         return lebar;
     }
 
-    public void setTinggi(double tinggi) {
-        this.tinggi = tinggi;
-    }
-
-    public double getTinggi() {
-        return tinggi;
-    }
-
-    public  void setLuasPermukaan() {
-        this.luas = 2 * (panjang * lebar + panjang * tinggi + lebar * tinggi);
-    }
-    public double getLuasPermukaan(){
-        return luas;
+    public void setLuasPermukaan() {
+        super.luas = 2 * (panjang * lebar + panjang * tinggi + lebar * tinggi);
     }
 
     public void setVolume() {
-        this.volume = panjang * lebar * tinggi;
+        super.volume = panjang * lebar * tinggi;
     }
-    public double getVolume(){
-        return volume;
-    }
-    
-}
 
+}
