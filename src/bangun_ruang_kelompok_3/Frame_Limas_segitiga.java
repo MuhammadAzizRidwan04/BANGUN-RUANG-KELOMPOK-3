@@ -150,7 +150,7 @@ public class Frame_Limas_segitiga extends javax.swing.JFrame {
         
 
         lms.setAlas(alas);
-        lms.setTinggiAlas(tinggi_alas);
+        lms.setTinggi(tinggi_alas);
         lms.setLuasSisiTegak(luas_sisi_tegak);
         lms.setTinggiLimasSegitiga(tingi_limas_segitiga);
        
@@ -158,7 +158,7 @@ public class Frame_Limas_segitiga extends javax.swing.JFrame {
         lms.setVolume();
 
         String volume = String.valueOf(lms.getVolume());
-        String luas = String.valueOf(lms.getLuasPermukaan());
+        String luas = String.valueOf(lms.getLuas());
         vVolume.setText(volume);
         vLuas.setText(luas);
         tRluas.setText("Luas : (1/2 * Alas * Tinggi alas) + (3 * Luas sisi tegak");
