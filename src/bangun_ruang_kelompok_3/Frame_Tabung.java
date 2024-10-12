@@ -142,7 +142,7 @@ public class Frame_Tabung extends javax.swing.JFrame {
         tb.setVolume();
 
         String volume = String.valueOf(tb.getVolume());
-        String luas = String.valueOf(tb.getLuasPermukaan());
+        String luas = String.valueOf(tb.getLuas());
         vVolume.setText(volume);
         vLuas.setText(luas);
         tRluas.setText("Luas : 2 * PHI * Jari-jari *(Jari-jari + Tinggi)");
