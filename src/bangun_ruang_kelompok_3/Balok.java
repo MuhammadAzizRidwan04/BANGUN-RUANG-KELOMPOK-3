@@ -11,6 +11,7 @@ package bangun_ruang_kelompok_3;
 public class Balok extends Bangun_ruang {
 
     double panjang, lebar, luas, volume;
+    //
 
     public void setPanjang(double panjang) {
         this.panjang = panjang;
