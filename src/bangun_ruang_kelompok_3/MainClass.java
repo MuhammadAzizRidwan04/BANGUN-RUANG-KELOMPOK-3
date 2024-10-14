@@ -35,7 +35,7 @@ public class MainClass {
         System.out.println("Hasil Volume \t\t: " + ps.getVolume());
         System.out.println("=================================================================================");
         
-        Balok blk = new Balok();
+        Balok blk = new Balok();//
         blk.setPanjang(2.8);
         blk.setLebar(4.7);
         blk.setTinggi(5.2);
