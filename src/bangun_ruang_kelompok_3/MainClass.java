@@ -67,7 +67,7 @@ public class MainClass {
         System.out.println("Hasil Volume \t\t: " + kbs.getVolume());
         System.out.println("=================================================================================");
         
-        Bola bl = new Bola();
+        Bola bl = new Bola();//
         bl.setJari_jari(8.7);
         bl.setluaspermukaan();
         bl.setvolume();
