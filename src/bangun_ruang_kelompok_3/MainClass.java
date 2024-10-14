@@ -82,7 +82,7 @@ public class MainClass {
         System.out.println("Hasil Volume \t\t: " + bl.getVolume());
         System.out.println("=================================================================================");
         
-        Kerucut krc = new Kerucut();
+        Kerucut krc = new Kerucut();//
         krc.setGaris_pelukis(3.5);
         krc.setJari_jari(3.2);
         krc.setTinggi(4.9);
