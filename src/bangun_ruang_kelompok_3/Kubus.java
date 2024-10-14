@@ -11,6 +11,7 @@ package bangun_ruang_kelompok_3;
 public class Kubus extends Bangun_ruang {
 
     double sisi, luas, volume;
+    //
 
     public void setSisi(double sisi) {
         this.sisi = sisi;
