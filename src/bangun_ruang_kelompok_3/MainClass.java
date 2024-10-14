@@ -101,7 +101,7 @@ public class MainClass {
         System.out.println("Hasil Volume \t\t: " + krc.getVolume());
         System.out.println("=================================================================================");
         
-        Tabung tb = new Tabung();
+        Tabung tb = new Tabung();//
         tb.setJari_jari(4.5);
         tb.setTinggi(9.8);
         tb.setLuasPermukaan();
