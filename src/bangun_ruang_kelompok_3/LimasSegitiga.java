@@ -11,7 +11,7 @@ package bangun_ruang_kelompok_3;
 public class LimasSegitiga extends Bangun_ruang {
 
     double luas_sisi_tegak, tingi_limas_segitiga, luas, volume;
-    //tinggi alas = variabel tinggi di kelas bangun ruang
+    //tinggi alas = variabel tinggi di kelas bangun ruang/
 
     public void setLuasSisiTegak(double luas_sisi_tegak) {
         this.luas_sisi_tegak = luas_sisi_tegak;
