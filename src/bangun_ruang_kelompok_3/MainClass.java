@@ -118,7 +118,7 @@ public class MainClass {
         System.out.println("Hasil Volume \t\t: " + tb.getVolume());
         System.out.println("=================================================================================");
         
-        LimasSegitiga lms  = new LimasSegitiga();
+        LimasSegitiga lms  = new LimasSegitiga();//
         lms.setAlas(9.8);
         lms.setTinggi(7.1);
         lms.setLuasSisiTegak(2.6);
