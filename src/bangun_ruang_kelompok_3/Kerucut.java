@@ -11,6 +11,7 @@ package bangun_ruang_kelompok_3;
 public class Kerucut extends Bangun_ruang {
 
     double garis_pelukis, luas, volume;
+    //
 
     public void setGaris_pelukis(double garis_pelukis) {
         this.garis_pelukis = garis_pelukis;
