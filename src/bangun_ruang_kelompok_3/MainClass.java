@@ -53,7 +53,7 @@ public class MainClass {
         System.out.println("Hasil Volume \t\t: " + blk.getVolume());
         System.out.println("=================================================================================");
         
-        Kubus kbs = new Kubus();
+        Kubus kbs = new Kubus();//
         kbs.setSisi(3.7);
         kbs.setLuasPermukaan();
         kbs.setVolume();
